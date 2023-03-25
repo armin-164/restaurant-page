@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/armin-164/restaurant-page/issues"
   },
-  "homepage": "https://github.com/armin-164/restaurant-page#readme"
+  "homepage": "https://github.com/armin-164/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1"
+  }
 }
