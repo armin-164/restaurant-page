@@ -19,6 +19,9 @@
   "homepage": "https://github.com/armin-164/restaurant-page#readme",
   "devDependencies": {
     "css-loader": "^6.7.3",
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
     "prettier": "2.8.7",
     "style-loader": "^3.3.2",
     "webpack": "^5.76.3",
