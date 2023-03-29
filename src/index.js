@@ -1,4 +1,4 @@
-import { addElements } from "./homePageBuilder";
+import addElements from "./homePageBuilder";
 import './style.css';
 
 addElements();
