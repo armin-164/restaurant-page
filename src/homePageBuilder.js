@@ -1,8 +1,8 @@
-import createHeader from "./createHeader";
+import buildHeader from "./createHeader";
 
 const addElements = () => {
   const content = document.getElementById("content");
-  content.appendChild(createHeader());
+  content.appendChild(buildHeader());
 };
 
 export default addElements;

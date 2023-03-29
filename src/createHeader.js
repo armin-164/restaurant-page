@@ -1,4 +1,4 @@
-const createHeader = () => {
+const buildHeader = () => {
     const headerContainer = document.createElement("div");
     headerContainer.classList = "header-container";
   
@@ -27,4 +27,4 @@ const createHeader = () => {
     return headerContainer;
   };
 
-  export default createHeader;
+  export default buildHeader;
