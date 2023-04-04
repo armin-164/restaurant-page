@@ -19,3 +19,28 @@ body {
     list-style-type: none;
     padding: 0;
 }
+
+#content {
+    display: grid;
+    grid-template-columns: 4fr 1fr 4fr;
+    grid-template-rows: minmax(100px, 150px) 1fr 4fr;
+}
+
+
+.header-container {
+    grid-column: 1 / 5;
+}
+
+
+
+.main-container {
+    height: 100vh;
+    grid-column: 1 / 4;
+}
+
+
+.main-content {
+    padding: 100px;
+    background-color: grey;
+
+}
