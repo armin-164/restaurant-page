@@ -36,11 +36,24 @@ body {
 .main-container {
     height: 100vh;
     grid-column: 1 / 4;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
+.main-background-img {
+    width: 100%;
+    grid-column: 1 / -1;
+    
+}
 
 .main-content {
     padding: 100px;
-    background-color: grey;
+    background-color: rgb(107, 107, 107);
+    grid-column: 2 / 4;
+    align-self: flex-start;
+    margin-top: 40px;
+}
 
+.main-background-img, .main-content {
+    grid-row: 1 / 2;
 }
