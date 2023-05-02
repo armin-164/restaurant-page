@@ -57,3 +57,27 @@ body {
 .main-background-img, .main-content {
     grid-row: 1 / 2;
 }
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.promo-container > button {
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(255, 25, 25);
+}
+
+.promo-container {
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+}
