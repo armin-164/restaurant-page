@@ -1,14 +1,15 @@
 import addElements from "./homePageBuilder";
 import addHomepageText from "./tabContent/homeContent";
 import addMenupageText from "./tabContent/menuContent";
+import addAboutpageText from "./tabContent/aboutContent";
 import buildMainSection from "./createMainSection";
 import "./style.css";
 
 // This is the intial page load
-addElements(addHomepageText()); 
+addElements(addHomepageText());
 
-//This is the tab logic for when clicking tabs and changing content
-(function tabLogic()  {
+// This is the tab logic for when clicking tabs and changing content
+(function tabLogic() {
   const tabs = document.querySelectorAll("li");
 
   tabs.forEach((tab) => {
@@ -21,10 +22,9 @@ addElements(addHomepageText());
       } else if (tab.innerText === "Menu") {
         content.removeChild(content.children[1]);
         content.appendChild(buildMainSection(addMenupageText()));
-      }
-      else if (tab.innerText === "About") {
+      } else if (tab.innerText === "About") {
         content.removeChild(content.children[1]);
-        content.appendChild(buildMainSection(addMenupageText()));
+        content.appendChild(buildMainSection(addAboutpageText()));
       }
     });
   });
