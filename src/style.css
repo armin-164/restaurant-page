@@ -81,3 +81,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+span {
+    float:right;
+}
